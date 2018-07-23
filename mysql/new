@@ -1,0 +1,8 @@
+UPDATE wp_options SET option_value = replace(option_value, 'http://192.168.33.12/', 'http://u0536070.isp.regruhosting.ru/') WHERE option_name = 'home' OR option_name = 'siteurl';
+
+UPDATE wp_posts SET guid = replace(guid, 'http://192.168.33.12/','http://u0536070.isp.regruhosting.ru/');
+
+UPDATE wp_posts SET post_content = replace(post_content, 'http://192.168.33.12/', 'http://u0536070.isp.regruhosting.ru/');
+
+UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://192.168.33.12/','http://u0536070.isp.regruhosting.ru/');
+UPDATE wp_postmeta SET meta_value = replace(meta_value,'192.168.33.12','u0536070.isp.regruhosting.ru');
