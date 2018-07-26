@@ -8,16 +8,13 @@ jQuery(document).ready(function () {
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
         arrows: true,
-        infinite: true,
-        centerPadding: '60px',
-        slidesToShow: 5,
+        slidesToShow: 3,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     arrows: true,
-                    centerPadding: '40px',
                     slidesToShow: 5,
                     slidesToScroll: 1,
                 }
@@ -26,7 +23,6 @@ jQuery(document).ready(function () {
                 breakpoint: 480,
                 settings: {
                     arrows: true,
-                    centerPadding: '40px',
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }

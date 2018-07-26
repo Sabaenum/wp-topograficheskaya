@@ -410,3 +410,67 @@ class Kama_Breadcrumbs {
     }
 
 }
+function post_block( $atts )
+{
+    global $post;
+    $categories = get_categories(array('hide_empty' => false, 'exclude' => 1));
+    $output = '<div class="container"><ul class="nav nav-tabs"><li class="active"><a data-toggle="tab" href="#all">Все</a></li>';
+    foreach ($categories as $category) {
+        $output .= '<li><a data-toggle="tab" href="#category' . $category->term_id . '">' . $category->cat_name . '</a></li>';
+    }
+    $output .= '</ul><div class="tab-content">';
+    foreach ($categories as $item) {
+        $myposts = get_posts(array("category" => $item->term_id));
+        $output .= '<div id="category'.$item->term_id.'" class="tab-pane fade category-content"><div id="categories'.$item->term_id.'">';
+        foreach ($myposts as $post) {
+            setup_postdata($post);
+            $output .= '<div class="image_title">';
+            $output .= '<div class="post-slider">'.get_the_post_thumbnail( $post->ID, array(250,150));
+            $output .= '<h3 class="post-title">'.$post->post_title.'</h3>';
+            $output .= '</div>';
+            $output .= '<div class="post-button">';
+            $output .= '<a class="post-more" href="'.$post->guid.'">Подробнее</a>';
+            $output .= '<a class="post-bye" href="'.$post->guid.'">Цена</a>';
+            $output .= '</div></div>';
+        }
+        $output .= '</div></div>';
+        $output .= get_slide($item->term_id);
+    }
+    $output .= '</div>';
+    return $output;
+}
+add_shortcode('posts_block', 'post_block');
+
+function get_slide($id)
+{
+    $slide = "<script type=\"text/javascript\">
+    jQuery(document).ready(function () {
+        jQuery('#categories" . $id . "').slick({
+        nextArrow: '<i class=\"fa fa-arrow-right\"></i>',
+        prevArrow: '<i class=\"fa fa-arrow-left\"></i>',
+        arrows: true,     
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerPadding: '40px',
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });});</script>";
+    return $slide;
+}
