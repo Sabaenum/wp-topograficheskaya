@@ -65,5 +65,9 @@
             <a class="banner-button-2" href="#">Посмотреть прайс-лист</a>
         </div>
     </div>
-    <?php } ?>
+    <?php } else { ?>
+        <div class="breadcrumbs">
+            <?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' » '); ?>
+        </div>
+   <?php } ?>
 </div>

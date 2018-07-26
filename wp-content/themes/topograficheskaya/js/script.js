@@ -2,6 +2,7 @@ jQuery(document).ready(function () {
     jQuery('.testimonials-slide').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
+
     });
     jQuery('.partners-slider').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
