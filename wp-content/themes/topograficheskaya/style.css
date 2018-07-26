@@ -3081,6 +3081,12 @@ a.post-bye {
     padding-top: 15px;
     padding-bottom: 15px;
 }
+#testimonials .fw-container{
+    width: 90%;
+}
+#clients .fw-container{
+    width: 90%;
+}
 #mej_page_4 p{
     color: #ffffff;
     font-family: "Gotham Pro";

@@ -2,20 +2,38 @@ jQuery(document).ready(function () {
     jQuery('.testimonials-slide').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
 
     });
     jQuery('.partners-slider').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
         arrows: true,
-        slidesToShow: 3,
+        slidesToShow: 5,
         slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     arrows: true,
-                    slidesToShow: 5,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                 }
             },
