@@ -1339,20 +1339,6 @@ i.fa.fa-arrow-right.slick-arrow {
     margin-top: 40px;
 }
 
-.Прямоугольник_3 {
-    border-style: solid;
-    border-width: 7px;
-    border-color: rgb(0, 160, 198);
-    background-color: rgb(255, 255, 255);
-    box-shadow: 7px 12.124px 27px 0px rgba(17, 28, 53, 0.3);
-    position: absolute;
-    left: 835px;
-    top: 1464px;
-    width: 234px;
-    height: 314px;
-    z-index: 421;
-}
-
 .main-foto img {
     width: 100%;
 }
@@ -2786,6 +2772,27 @@ section#vacancy_page {
     padding: 0 !important;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Footer Style */
 footer {
     padding: 0;
@@ -2991,12 +2998,6 @@ h3.post-title {
 .post-slider {
     position: relative;
 }
-#mej_page_2 .slick-track{
-    width: 100%!important;
-    justify-content: space-between;
-    padding: 20px;
-    display: flex;
-}
 .category-content{
     box-shadow: 0 0 13px rgba(21, 20, 22, 0.2);
     background-color: #ffffff;
@@ -3039,31 +3040,96 @@ a.post-bye {
 }
 #mej_page_2 .container{
     padding: 0;
+    margin:0;
+    max-width: 1170px;
 }
-#mej_page nav{
-    height: 60px;
+.works{
     display: flex;
+    flex-wrap: nowrap!important;
+    text-align: center;
+    height: 60px;
     justify-content: space-between;
 }
-.nav li a{
+.works li a{
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 14px;
     font-weight: 400;
     line-height: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    height: 100%!important;
+    width: 100%;
+    align-items: center;
+    display: flex!important;
+    border-radius: 5px 5px 0 0;
 }
-.nav li{
+#mej_page_4 .fw-team{
+    width: 33.333% ;
+}
+#mej_page_4 .fw-col-xs-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#mej_page_4 h4{
+    font-family: "Gotham Pro";
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#mej_page_4 p{
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+}
+
+
+.works li a.active {
+    background: red;
+}
+.works li{
     background-color: #00a0c6;
+    margin-right: 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
 }
 #mej_page .fw-col-xs-12{
     padding: 0;
 }
+.tab-content > .tab-pane{
+    display: block!important;
+    visibility: hidden;
+    height: 0;
+}
+.show{
+    visibility: visible!important;
+    height: 100%!important;
+    height: auto!important;
+}
 .image_title{
-    width: 260px!important;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.29);
     border-radius: 4px;
     background-color: #ffffff;
     padding: 20px;
+    width: 270px;
+    margin: auto;
+}
+.block-padding{
+    padding: 50px 15px 70px;
+}
+a.post-more:hover {
+    text-decoration: none;
+}
+a.post-bye:hover {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 991px) {

@@ -184,3 +184,67 @@ function setupCoverflow(coverflowContainer) {
 }
 
 setupCoverflow();
+
+
+function loadSlide (id) {
+    jQuery('#categories' + id).slick({
+            nextArrow: '<i class=\"fa fa-arrow-right\"></i>',
+            prevArrow: '<i class=\"fa fa-arrow-left\"></i>',
+            arrows: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            lazyLoad: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: true,
+                        centerPadding: '40px',
+                        slidesToShow: 5,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                    }
+                },
+            ],
+        });
+    jQuery('#categories' + id).slick('resize');
+}
+jQuery(document).ready(function () {
+    jQuery('#all').slick({
+        nextArrow: '<i class=\"fa fa-arrow-right\"></i>',
+        prevArrow: '<i class=\"fa fa-arrow-left\"></i>',
+        arrows: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    centerPadding: '40px',
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+});
