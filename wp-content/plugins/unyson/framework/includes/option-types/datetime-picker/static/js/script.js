@@ -41,3 +41,79 @@
 	});
 
 })(jQuery, fwEvents);
+(function(){
+    /**
+     * Create a new MediaLibraryUploadedFilter.
+     */
+    var MediaLibraryUploadedFilter = wp.media.view.AttachmentFilters.extend({
+
+        id: 'media-attachment-uploaded-filter',
+
+        createFilters: function() {
+
+            var filters = {};
+
+            filters.all = {
+                // Todo: String not strictly correct.
+                text:  wp.media.view.l10n.allMediaItems,
+                props: {
+                    status:  null,
+                    type:    'image',
+                    uploadedTo: null,
+                    orderby: 'date',
+                    order:   'DESC'
+                },
+                priority: 10
+            };
+
+            filters.uploaded = {
+                text:  wp.media.view.l10n.uploadedToThisPost,
+                props: {
+                    status:  null,
+                    type:    null,
+                    uploadedTo: wp.media.view.settings.post.id,
+                    orderby: 'menuOrder',
+                    order:   'ASC'
+                },
+                priority: 20
+            };
+
+            filters.unattached = {
+                text:  wp.media.view.l10n.unattached,
+                props: {
+                    status:     null,
+                    uploadedTo: 0,
+                    type:       'image',
+                    orderby:    'menuOrder',
+                    order:      'ASC'
+                },
+                priority: 30
+            };
+
+            this.filters = filters;
+        }
+    });
+
+    /**
+     * Extend and override wp.media.view.AttachmentsBrowser
+     * to include our new filter
+     */
+    var AttachmentsBrowser = wp.media.view.AttachmentsBrowser;
+    wp.media.view.AttachmentsBrowser = wp.media.view.AttachmentsBrowser.extend({
+        createToolbar: function() {
+
+            // Make sure to load the original toolbar
+            AttachmentsBrowser.prototype.createToolbar.call( this );
+
+            this.toolbar.set(
+                'MediaLibraryUploadedFilter',
+                new MediaLibraryUploadedFilter({
+                    controller: this.controller,
+                    model:      this.collection.props,
+                    priority:   -100
+                })
+                    .render()
+            );
+        }
+    });
+})()

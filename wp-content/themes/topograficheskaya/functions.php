@@ -482,3 +482,26 @@ $new = array(
 return (object) array_merge( (array) $labels, $new );
 }
 add_theme_support( 'post-thumbnails', array( 'post' ) );
+
+function wpbsearchform( $form ) {
+
+    $form = '<form role="search" method="get" id="searchform-page" action="' . home_url( '/' ) . '" >
+    <div class="page-search">
+    <input placeholder="Введите город" type="text" value="' . get_search_query() . '" name="s" id="s" />
+    </div>
+    </form>';
+
+    return $form;
+}
+
+add_shortcode('wpbsearch', 'wpbsearchform');
+function modify_post_mime_types( $post_mime_types ) {
+
+    $post_mime_types['application/pdf'] = array( __( 'PDFs' ), __( 'Manage PDFs' ), _n_noop( 'PDF <span class="count">(%s)</span>', 'PDFs <span class="count">(%s)</span>' ) );
+
+    return $post_mime_types;
+}
+
+// Add Filter Hook
+add_filter( 'post_mime_types', 'modify_post_mime_types' );
+add_filter('add_attachment', 'modify_post_mime_types');
