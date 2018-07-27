@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6ac72af-7af4-45a8-86fc-b3257c318b2e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,8 +35,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="3084" column="15" lean-forward="true" selection-start-line="3084" selection-start-column="15" selection-end-line="3084" selection-end-column="15" />
+            <state relative-caret-position="102">
+              <caret line="285" column="16" selection-start-line="285" selection-end-line="285" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -43,7 +44,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
+            <state relative-caret-position="7106">
               <caret line="418" column="88" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
             </state>
           </provider>
@@ -53,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -79,8 +80,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="204">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -98,10 +99,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#sale-contact</find>
-      <find>#price td.default-col</find>
-      <find>#sale-contact p</find>
-      <find>@</find>
       <find>h2:</find>
       <find>@me</find>
       <find>#services</find>
@@ -128,6 +125,10 @@
       <find>.image_title</find>
       <find>kama_breadcrumbs</find>
       <find>.works li a</find>
+      <find>home-s</find>
+      <find>blue</find>
+      <find>@</find>
+      <find>.banner-title h3</find>
     </findStrings>
     <replaceStrings>
       <replace>/wp-content/uploads/2018/07/</replace>
@@ -176,9 +177,9 @@
         <option value="$USER_HOME$/Downloads/contacts.html" />
         <option value="$USER_HOME$/Downloads/vacancy.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/index.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" />
       </list>
     </option>
@@ -300,18 +301,22 @@
       <workItem from="1532365762217" duration="27395000" />
       <workItem from="1532512757129" duration="15869000" />
       <workItem from="1532594107299" duration="8448000" />
-      <workItem from="1532605242707" duration="29153000" />
+      <workItem from="1532605242707" duration="29355000" />
+      <workItem from="1532682374826" duration="1029000" />
+      <workItem from="1532683880018" duration="718000" />
+      <workItem from="1532687157171" duration="6652000" />
+      <workItem from="1532703841315" duration="4420000" />
+      <workItem from="1532711182195" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219863000" />
+    <option name="totallyTimeSpent" value="233190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.46039605" />
@@ -563,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/slick/slick.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1734">
@@ -591,24 +589,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="418" column="88" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="418" column="88" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="3084" column="15" lean-forward="true" selection-start-line="3084" selection-start-column="15" selection-end-line="3084" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="285" column="16" selection-start-line="285" selection-end-line="285" selection-end-column="16" />
         </state>
       </provider>
     </entry>
