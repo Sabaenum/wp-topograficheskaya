@@ -362,10 +362,8 @@ p {
 }
 
 #home-sub-menu  {
-    max-width: 1710px;
     display: flex;
     justify-content: space-between;
-}
 }
 
 #home-sub-menu a {
@@ -591,6 +589,7 @@ input#contact-name {
     border-radius: 4px;
     border: 1px;
     margin-right: 30px;
+    padding-left: 10px;
 }
 
 input#contact-phone {
@@ -599,8 +598,11 @@ input#contact-phone {
     height: 45px;
     border-radius: 4px;
     border: 1px;
+    padding-left: 10px;
 }
+#home-sub-menu .fw-btn-1{
 
+}
 .sale-input {
     padding-top: 40px;
     padding-bottom: 30px;
@@ -719,6 +721,453 @@ input#contact-phone {
     color: rgb(255, 255, 255);
     line-height: 1.857;
     font-weight: normal;
+}
+#form_letter {
+    width: 370px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+p.inner-text-form {
+    max-width: 310px;
+    padding-bottom: 20px;
+}
+
+#form_letter:before {
+    content: '';
+    border-left: 2px solid #79d2e8;
+    width: 2px;
+    position: absolute;
+    left: 0;
+    top: 20px;
+    height: 450px;
+
+}
+.mej-title{
+    width: 100%;
+}
+
+#form_letter:after {
+    content: '';
+    border-right: 2px solid #79d2e8;
+    width: 2px;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    height: 450px;
+    margin: 0;
+}
+
+#form_letter input, #form_letter textarea {
+    border: 1px solid #d6d6d6;
+    box-shadow: 0px 3px 5px 0px rgb(134, 134, 134);
+    font-family: 'Gotham Pro';
+    font-size: 15px;
+    color: rgba(204, 204, 204, 255);
+    text-align: left;
+    padding: 16px 23px 16px;
+    margin: auto;
+}
+
+#form_letter input {
+    margin-bottom: 11px;
+    width: 250px;
+    height: 45px;
+}
+
+#form_letter textarea {
+    width: 250px;
+    height: 100px;
+    margin-bottom: 30px;
+    resize: none;
+}
+.inner-text-form{
+
+}
+#form_letter p {
+    font-family: 'Gotham Pro';
+    font-size: 13px;
+    color: rgba(108, 108, 108, 255);
+    text-align: left;
+}
+
+#form_letter button[name^="request_call"] {
+
+    min-width: 152px;
+    min-height: 41px;
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    border-radius: 4px;
+    background-image: -moz-linear-gradient(90deg, rgb(201, 0, 11) 0%, rgb(255, 54, 8) 99.609%);
+    background-image: -webkit-linear-gradient(90deg, rgb(201, 0, 11) 0%, rgb(255, 54, 8) 99.609%);
+    border: 0;
+    box-sizing: border-box;
+    margin-right: 6px;
+
+}
+
+#form_letter button[name^="letter_to_director"] {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    color: rgba(213, 12, 10, 255);
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(226, 25, 10);
+    border-radius: 4px;
+    background-color: white;
+    box-sizing: border-box;
+    min-width: 164px;
+    min-height: 41px;
+
+}
+
+#form_letter .top_buttons {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    width: 100%;
+    overflow: visible;
+}
+
+#form_letter .top_buttons:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2px;
+    border-width: 0 10px;
+    margin-left: -100%;
+    background: #79d2e8;
+
+}
+
+#form_letter .top_buttons:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2px;
+    border-width: 0 10px;
+    margin-right: -100%;
+    background: #79d2e8;
+    border-right: 10px solid white;
+
+}
+
+#form_letter p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+#form_letter #send_letter {
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background-image: -moz-linear-gradient(90deg, rgb(201, 0, 11) 0%, rgb(255, 54, 8) 99.609%);
+    background-image: -webkit-linear-gradient(90deg, rgb(201, 0, 11) 0%, rgb(255, 54, 8) 99.609%);
+    width: 201px;
+    height: 45px;
+    border: 0;
+    position: relative;
+}
+.line-form:before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2px;
+    border: solid #364968;
+    border-width: 0 10px;
+    margin-left: -100%;
+    background: #79d2e8;
+    border-right: 10px solid white;
+}
+.line-form:after{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    width: 100%;
+    height: 2px;
+    border-width: 0 10px;
+    margin-right: -100%;
+    background: #79d2e8;
+    border-right: 10px solid white;
+}
+div.wpcf7 .ajax-loader{
+    width: 1px;
+}
+input#send_letter:after {
+
+    content: "";
+    display: block;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 3px;
+    background: #79d2e8;
+    border-left: 3px solid white;
+
+    margin-right: -100%;
+    position: absolute;
+    right: -10px;
+    top: 22px;
+
+}
+#how-request{
+    padding-bottom: 50px;
+}
+#how-request .table td{
+    padding: 0.25rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+}
+.page-search input{
+    width: 802px;
+    height: 45px;
+    box-shadow: 0 3px 5px rgba(134, 134, 134, 0.36);
+    border-radius: 4px;
+    border: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    padding-left: 15px;
+}
+#files{
+    padding-bottom: 50px;
+}
+#search-location .fw-team{
+    width: 135px;
+    padding-bottom: 70px;
+}
+#search-location .fw-col-xs-12 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#searchform-page::after {
+    background-image: url(img/search-page.png) !important;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    height: 20px;
+    width: 23px;
+}
+#how-request input::placeholder {
+    font-size: 15px;
+    font-family: Gotham Pro;
+    color: rgb(204, 204, 204);
+    line-height: 1.2;
+}
+#how-request .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f1f7f7;
+}
+#how-request .table td a{
+    width: 135px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccaf44;
+    background: #e37c7c linear-gradient(to top, #ffce0c 0%, #ffdd5a 100%);
+    padding: 5px 25px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+}
+#how-request .fw-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#how-request h2{
+    font-family: 'Gotham Pro';
+    margin-bottom: 0;
+    padding: 50px 0 15px;
+    font-size: 24px;
+    color: rgba(0, 160, 198, 255);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.our-ingen{
+
+}
+
+#how-request .bold   {
+    font-family: 'Gotham Pro';
+    font-size: 16px;
+    color: rgba(85, 85, 85, 255);
+    text-align: center;
+    font-weight: bold;
+
+}
+
+#how-request .request-text{
+    font-family: 'Gotham Pro';
+    font-size: 14px;
+    color: rgba(85, 85, 85, 255);
+    text-align: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+}
+
+#how-request .request-text li{
+    padding-top: 30px;
+    padding-left: 70px;
+    position: relative;
+    font-weight: 500;
+}
+#how-request .request-text>li:first-child{
+    padding-top: 0;
+}
+
+#how-request .request-text>li:nth-child(1):before{
+    content:"1";
+    width:48px;
+    height:48px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #019abe;
+    text-align: center;
+    border: 2px solid #019abe;
+    border-radius: 50%;
+    padding: .3em .65em;
+    position: absolute;
+    left:0;
+    line-height: 33px;
+}
+
+#how-request .request-text>li:nth-child(2):before{
+    content:"2";
+    width:48px;
+    height:48px;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 18px;
+    color: #019abe;
+    text-align: center;
+    border: 2px solid #019abe;
+    border-radius: 50%;
+    padding: .3em .65em;
+    position: absolute;
+    left:0;
+    line-height: 33px;
+}
+
+#how-request .request-text>li:nth-child(3):before{
+    content:"3";
+    width:48px;
+    height:48px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #019abe;
+    text-align: center;
+    border: 2px solid #019abe;
+    border-radius: 50%;
+    padding: .3em .65em;
+    position: absolute;
+    left:0;
+    line-height: 33px;
+}
+
+
+#how-request .request-text .tel_mail{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+#how-request .request-text .tel_mail li {
+    padding-left: 30px;
+    position: relative;
+}
+
+
+#how-request .request-text .tel_mail .call:before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("img/phone-receiver.png")no-repeat;
+    position: absolute;
+    left:5px;
+    top: 32px;
+
+}
+
+#how-request .request-text .tel_mail .mail:before{
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 11px;
+    background: url("img/close-envelope.png")no-repeat;
+    position: absolute;
+    left:5px;
+    top: 32px;
+
+}
+
+
+
+
+#how-request .request-text a[href^="tel"]{
+    color: #333333;
+
+}
+
+#how-request .request-text a[href^="mailto"]{
+    font-size: 16px;
+    border-bottom: 1px solid #c3c3c3;
+    color: #333333;
+}
+
+#how-request .request-text a[href^="mailto"]:hover{
+    text-decoration: none;
+}
+
+
+#how-request .kadgeobyro{
+    text-align: left;
+    padding-left: 70px;
+    font-style: italic;
+    color: #555555;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    position: relative;
+    line-height: 28px;
+
+}
+#how-request .fw-col-xs-12{
+    display: flex;
+    justify-content: center;
+}
+
+#how-request .kadgeobyro:before{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 83px;
+    background: #00a0c6;
+    left: 25px;
+    top: 5px;
 }
 
 #service h2 {
@@ -2211,8 +2660,47 @@ span#close-modal {
 .pdf-container {
     display: flex;
     justify-content: center;
-}
+    padding-bottom: 25px;
+    padding-right: 10px;
 
+}
+#mej_contact h2{
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 35px;
+    padding-top: 60px;
+}
+.pdf-container a:hover{
+    text-decoration: none;
+    color: white;
+}
+.white{
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 16px;
+    line-height: 24px;
+}
+.p-bottom{
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+.p-bottom-1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+.contacts-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 .pdf-icon {
     width: 70%;
 }

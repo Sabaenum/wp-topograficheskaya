@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6ac72af-7af4-45a8-86fc-b3257c318b2e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" afterDir="false" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/options.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/static.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/static/css/styles.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/static/img/page_builder.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/views/view.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/close-envelope.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/doc.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/phone-receiver.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/search-page.png" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/includes/option-types/datetime-picker/static/js/script.js" afterPath="$PROJECT_DIR$/wp-content/plugins/unyson/framework/includes/option-types/datetime-picker/static/js/script.js" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" afterPath="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +48,19 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="3084" column="15" lean-forward="true" selection-start-line="3084" selection-start-column="15" selection-end-line="3084" selection-end-column="15" />
+            <state relative-caret-position="234">
+              <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,35 +68,50 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="418" column="88" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
+            <state relative-caret-position="630">
+              <caret line="506" column="55" lean-forward="true" selection-start-line="506" selection-start-column="55" selection-end-line="506" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="options.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/options.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/views/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="336">
+              <caret line="3586" column="38" lean-forward="false" selection-start-line="3586" selection-start-column="24" selection-end-line="3586" selection-end-column="38" />
+              <folding>
+                <marker date="1532345922189" expanded="true" signature="59974:59990" ph="Insert into post... " />
+                <marker date="1532345922189" expanded="true" signature="60000:60016" ph="Insert into page... " />
+                <marker date="1532345922189" expanded="true" signature="86192:86276" ph="SELECT post_... $" />
+                <marker date="1532345922189" expanded="true" signature="88212:88363" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="88533:88626" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="94379:94419" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="95894:95962" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="96287:96364" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="96816:96881" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                <marker date="1532345922189" expanded="true" signature="97074:97128" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1532345922189" expanded="true" signature="102394:102477" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                <marker date="1532345922189" expanded="true" signature="104399:104482" ph="UPDATE ${$wpdb-&gt;comments}... " />
+                <marker date="1532345922189" expanded="true" signature="124893:124934" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="136466:136542" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="137615:137750" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="138868:138963" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="153118:153170" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="155770:155910" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="157727:157825" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="157886:157963" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="170057:170115" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="174541:174581" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="175763:175828" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+                <marker date="1532345922189" expanded="true" signature="176022:176076" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1532345922189" expanded="true" signature="177280:177399" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+                <marker date="1532345922189" expanded="true" signature="201832:201977" ph="SELECT post_... " />
+                <marker date="1532345922189" expanded="true" signature="202033:202174" ph="SELECT post_... " />
+                <marker date="1532345922189" expanded="true" signature="202270:202464" ph="SELECT DATE_... " />
+                <marker date="1532345922189" expanded="true" signature="213239:213349" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+                <marker date="1532345922189" expanded="true" signature="215870:215926" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,7 +120,8 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,28 +139,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#sale-contact</find>
-      <find>#price td.default-col</find>
-      <find>#sale-contact p</find>
-      <find>@</find>
-      <find>h2:</find>
-      <find>@me</find>
-      <find>#services</find>
-      <find>#service</find>
-      <find>#service a</find>
-      <find>.banner-title h2</find>
-      <find>service</find>
-      <find>#for-what .fw-team</find>
-      <find>#for-what h2</find>
-      <find>#for-what</find>
-      <find>#price</find>
-      <find>.fw-team .fw-team-image</find>
-      <find>#ad</find>
-      <find>.main-sale:after</find>
       <find>#call</find>
       <find>.main-sale::after</find>
       <find>.main-sale</find>
-      <find>#home-sub-menu</find>
       <find>image_title</find>
       <find>#mej_page_2 .container</find>
       <find>.nav</find>
@@ -128,9 +150,29 @@
       <find>.image_title</find>
       <find>kama_breadcrumbs</find>
       <find>.works li a</find>
+      <find>.how-request</find>
+      <find>#how-request .kadgeobyro</find>
+      <find>form_letter</find>
+      <find>#form_letter input</find>
+      <find>#form_letter textarea</find>
+      <find>#form_letter</find>
+      <find>send_letter</find>
+      <find>#form_letter p</find>
+      <find>#form_letter .top_buttons</find>
+      <find>#form_letter:after</find>
+      <find>absolute</find>
+      <find>how-request</find>
+      <find>post_mime_type</find>
+      <find>attachment</find>
+      <find>add_attachment</find>
+      <find>.page-search input</find>
+      <find>input#contact-name</find>
+      <find>home-sub-menu</find>
+      <find>#home-sub-menu</find>
     </findStrings>
     <replaceStrings>
       <replace>/wp-content/uploads/2018/07/</replace>
+      <replace>#how-request</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\project\wordpress\wp-content\themes\topograficheskaya</dir>
@@ -148,11 +190,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/fonts/stylesheet.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/searchform.php" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/options.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/section/views/view.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/options.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/wp-config.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/footer.php" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/header.php" />
@@ -175,10 +215,17 @@
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/css/style.css" />
         <option value="$USER_HOME$/Downloads/contacts.html" />
         <option value="$USER_HOME$/Downloads/vacancy.html" />
-        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$USER_HOME$/Desktop/othpage/main.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/includes/option-types/datetime-picker/static/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/views/view.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/options.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/config.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css" />
       </list>
     </option>
@@ -192,6 +239,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
@@ -199,48 +247,127 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="topograficheskaya" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="wordpress" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="topograficheskaya" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="button-doc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="unyson" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="framework" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="extensions" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="shortcodes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="button-doc" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="wp-topograficheskaya" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wp-topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="topograficheskaya" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,20 +376,21 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\wp-topograficheskaya\wp-content\themes\topograficheskaya\img" />
+      <recent name="C:\projects\wp-topograficheskaya\wp-content\plugins\unyson\framework\extensions\shortcodes\shortcodes" />
+      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\img" />
+      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya" />
+      <recent name="D:\project\wordpress\wp-content\plugins\unyson\framework\extensions\shortcodes\shortcodes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\img" />
       <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\img\icon" />
       <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\js" />
       <recent name="D:\project\wordpress" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\img" />
-      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya" />
-      <recent name="D:\project\wordpress\wp-content\plugins\unyson\framework\extensions\shortcodes\shortcodes" />
-      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\partners-images" />
-      <recent name="D:\project\wordpress\wp-content\themes\topograficheskaya\slide-partners" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,6 +404,9 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -301,35 +432,35 @@
       <workItem from="1532512757129" duration="15869000" />
       <workItem from="1532594107299" duration="8448000" />
       <workItem from="1532605242707" duration="29153000" />
+      <workItem from="1532682739349" duration="17406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219863000" />
+    <option name="totallyTimeSpent" value="237269000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19364598" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5015129" side_tool="true" weight="0.46039605" />
-      <window_info anchor="right" id="Database" order="3" weight="0.15885022" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49848714" visible="true" weight="0.37128714" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19729729" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46039605" sideWeight="0.5015129" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15885022" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289941" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37159765" sideWeight="0.49848714" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,11 +474,62 @@
     <breakpoint-manager>
       <option name="time" value="3" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="418" column="88" lean-forward="false" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/views/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/builder/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/footer.php" />
@@ -357,14 +539,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/fonts/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="28" />
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/icon-text/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -375,59 +557,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/slick/config.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/screen.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/call.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/icon/phone_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/icon-text/views/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/icon-text/options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/testimonials/config.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/testimonials/static.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/footer.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/team-member/options.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/team-member/static/img/page_builder.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/team-member/static.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/portfolio/static.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/team-member/config.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -436,44 +578,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/search.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/portfolio/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/portfolio.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="64" column="11" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/portfolio.handlebars" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/portfolio/options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <caret line="29" column="53" lean-forward="false" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/slide.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="129" column="32" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Skype/My Skype Received Files/slide.handlebars" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/page.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -501,72 +625,27 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/portfolio/views/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <caret line="5" column="2" lean-forward="false" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3491" />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/css/style.css" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/css/style.css" />
-    <entry file="file://$USER_HOME$/Downloads/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="844">
-          <caret line="593" column="1" lean-forward="true" selection-start-line="276" selection-end-line="593" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="64" column="14" selection-start-line="64" selection-start-column="14" selection-end-line="64" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/actions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/vacancy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="103" column="6" selection-start-line="103" selection-start-column="6" selection-end-line="103" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/css/main.css" />
+    <entry file="file://$USER_HOME$/Downloads/contacts.html" />
+    <entry file="file://$USER_HOME$/Downloads/actions.html" />
+    <entry file="file://$USER_HOME$/Downloads/vacancy.html" />
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="57" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="57" />
+          <caret line="3" column="57" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysql/new">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="89" selection-end-line="7" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/img/client_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+          <caret line="7" column="89" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -577,38 +656,162 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config-sample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/othpage/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="592" column="0" lean-forward="false" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-pdf/views/view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="31" lean-forward="false" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="3586" column="38" lean-forward="false" selection-start-line="3586" selection-start-column="24" selection-end-line="3586" selection-end-column="38" />
+          <folding>
+            <marker date="1532345922189" expanded="true" signature="59974:59990" ph="Insert into post... " />
+            <marker date="1532345922189" expanded="true" signature="60000:60016" ph="Insert into page... " />
+            <marker date="1532345922189" expanded="true" signature="86192:86276" ph="SELECT post_... $" />
+            <marker date="1532345922189" expanded="true" signature="88212:88363" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="88533:88626" ph="SELECT COUNT... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="94379:94419" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="95894:95962" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="96287:96364" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="96816:96881" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1532345922189" expanded="true" signature="97074:97128" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1532345922189" expanded="true" signature="102394:102477" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1532345922189" expanded="true" signature="104399:104482" ph="UPDATE ${$wpdb-&gt;comments}... " />
+            <marker date="1532345922189" expanded="true" signature="124893:124934" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="136466:136542" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="137615:137750" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="138868:138963" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="153118:153170" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="155770:155910" ph="SELECT ID, p... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="157727:157825" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="157886:157963" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="170057:170115" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="174541:174581" ph="SELECT * FRO... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="175763:175828" ph="SELECT comme... ${$wpdb-&gt;comments}" />
+            <marker date="1532345922189" expanded="true" signature="176022:176076" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1532345922189" expanded="true" signature="177280:177399" ph="SELECT meta_... ${$wpdb-&gt;postmeta}" />
+            <marker date="1532345922189" expanded="true" signature="201832:201977" ph="SELECT post_... " />
+            <marker date="1532345922189" expanded="true" signature="202033:202174" ph="SELECT post_... " />
+            <marker date="1532345922189" expanded="true" signature="202270:202464" ph="SELECT DATE_... " />
+            <marker date="1532345922189" expanded="true" signature="213239:213349" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <marker date="1532345922189" expanded="true" signature="215870:215926" ph="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/text-block/views/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/includes/option-types/datetime-picker/static/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1209">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/unyson/framework/extensions/shortcodes/shortcodes/button-doc/views/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="75" lean-forward="true" selection-start-line="7" selection-start-column="75" selection-end-line="7" selection-end-column="75" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="418" column="88" selection-start-line="418" selection-start-column="45" selection-end-line="418" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="630">
+          <caret line="506" column="55" lean-forward="true" selection-start-line="506" selection-start-column="55" selection-end-line="506" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/topograficheskaya/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="3084" column="15" lean-forward="true" selection-start-line="3084" selection-start-column="15" selection-end-line="3084" selection-end-column="15" />
+        <state relative-caret-position="234">
+          <caret line="363" column="17" lean-forward="false" selection-start-line="363" selection-start-column="17" selection-end-line="363" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
