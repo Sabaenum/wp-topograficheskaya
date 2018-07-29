@@ -48,6 +48,8 @@ function kama_breadcrumbs( $sep = ' » ', $l10n = array(), $args = array() ){
     echo $kb->get_crumbs( $sep, $l10n, $args );
 }
 
+
+
 class Kama_Breadcrumbs {
 
     public $arg;

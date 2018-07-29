@@ -7,11 +7,19 @@
 <div id="header" class="row">
 <div class="main-header col-sm-12 col-lg-12 ">
     <a id="home-icon" href="/"><img src="<?php echo get_stylesheet_directory_uri().'/img/home.png'; ?>" /></a>
-<?php wp_nav_menu(); ?>
+        <div class="desktop-menu"> <?php wp_nav_menu(); ?></div>
+
+    <div class="mobile-menu">
+        <a href="#" class="show-menu"><img src="<?php echo get_stylesheet_directory_uri().'/img/menu.png'; ?>"></a>
+    </div>
 <div class="search ">
     <?php get_search_form(); ?>
 </div>
 </div>
+    <div class="col-sm-12 col-lg-12 mobile-menu-content">
+        <a id="mob-home-icon" href="/"><img src="<?php echo get_stylesheet_directory_uri().'/img/home.png'; ?>" /></a>
+        <?php wp_nav_menu(); ?>
+    </div>
 </div>
 <div class="header-contacts">
     <div class="row" id="home-contents">

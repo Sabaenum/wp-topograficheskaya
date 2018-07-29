@@ -26,7 +26,7 @@ define('DB_NAME', 'topograficheskaya');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

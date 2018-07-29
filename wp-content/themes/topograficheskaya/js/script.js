@@ -14,9 +14,10 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots: true
                 }
             }
         ]
@@ -40,9 +41,10 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots: true
                 }
             }
         ]
@@ -63,6 +65,10 @@ jQuery(document).ready(function () {
         arrows:true
     });
 });
+
+
+
+
 var a = document.getElementsByClassName("lic");
 var cfImg = document.getElementsByClassName("coverflow__image")
 
@@ -265,4 +271,8 @@ jQuery(document).ready(function () {
             }
         ]
     });
+});
+jQuery('a.show-menu').on('click', function (event) {
+    event.preventDefault();
+    jQuery( ".mobile-menu-content" ).toggleClass( "show" )
 });
