@@ -3,11 +3,6 @@
 }
 
 $options = array(
-	'title'         => array(
-		'label' => __( 'Title', 'fw' ),
-		'desc'  => __( 'Option Testimonials Title', 'fw' ),
-		'type'  => 'text',
-	),
 	'testimonials' => array(
 		'label'         => __( 'Testimonials', 'fw' ),
 		'popup-title'   => __( 'Add/Edit Testimonial', 'fw' ),

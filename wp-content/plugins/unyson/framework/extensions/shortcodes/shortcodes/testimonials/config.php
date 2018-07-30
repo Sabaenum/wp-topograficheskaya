@@ -9,3 +9,4 @@ $cfg['page_builder'] = array(
 	'description' => __( 'Add some Testimonials', 'fw' ),
 	'tab'         => __( 'Content Elements', 'fw' ),
 );
+

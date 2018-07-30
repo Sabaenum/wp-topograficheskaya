@@ -1,7 +1,70 @@
 jQuery(document).ready(function () {
+    jQuery("#range").slider({});
+    jQuery("#range").on("slide", function(slideEvt) {
+        console.log(slideEvt.value);
+        jQuery(".block-number").val(slideEvt.value);
+    });
     jQuery('.testimonials-slide').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true
+                }
+            }
+        ]
+
+    });
+    jQuery('.works-slide').slick({
+        nextArrow: '<i class="fa fa-arrow-right"></i>',
+        prevArrow: '<i class="fa fa-arrow-left"></i>',
+        arrows: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerPadding: '40px',
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true
+                }
+            }
+        ]
+
+    });
+    jQuery('.related').slick({
+        nextArrow: '<i class="fa fa-arrow-right"></i>',
+        prevArrow: '<i class="fa fa-arrow-left"></i>',
+        arrows: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        centerPadding: '40px',
         responsive: [
             {
                 breakpoint: 768,
