@@ -8,12 +8,14 @@ function admin_bar(){
 add_action('init', 'admin_bar' );
 function add_theme_scripts()
 {
-    wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css', false);
+    wp_enqueue_style('bootstrap', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/css/bootstrap-slider.css', false);
+    wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/css/bootstrap.css', false);
     wp_enqueue_style('slider', get_template_directory_uri() . '/js/slick/slick.css', false);
     wp_enqueue_style('slider-theme', get_template_directory_uri() . '/js/slick/slick-theme.css', false);
     wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array ( 'jquery' ), 1.1, true);
     wp_enqueue_script('slick', get_template_directory_uri() . '/js/slick/slick.min.js', array('jquery'), 1.1, true);
     wp_enqueue_script('script', get_template_directory_uri() . '/js/script.js', array('jquery','slick'), 1.1, true);
+    wp_enqueue_script('boot-slider', 'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.0/bootstrap-slider.js' , array('jquery'), 1.1, true);
 }
 add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
@@ -506,4 +508,22 @@ function modify_post_mime_types( $post_mime_types ) {
 
 // Add Filter Hook
 add_filter( 'post_mime_types', 'modify_post_mime_types' );
-add_filter('add_attachment', 'modify_post_mime_types');
+
+function calculation_price( $atts ){
+    $output = '<div class="calculation"><div class="block-calculation">';
+    $output .= '<h4>ВВЕДИТЕ КОЛИЧЕСТВО ТОЧЕК И ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ</h4>';
+    $output .= '<div class="block-elements"><p>Количество точек</p><input type="text" class="block-number" />';
+    $output .= '<span class="line-block"><input id="range" data-slider-id="block-range" type="text" data-slider-min="0" data-slider-max="20" data-slider-step="1" data-slider-value="14"/></span><div>';
+    $output .= '<div class="checkbox-block"><div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="check-1" value="option1"><label class="form-check-label" for="inlineCheckbox1">Подготовка Акта выноса – бесплатно</label></div>';
+    $output .= '<div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="check-2" value="option1"><label class="form-check-label" for="inlineCheckbox1">C учетом скидки *</label></div></div>';
+    $output .= '<div class="checkbox-block-1"><div class="form-check form-check-inline"><input class="form-check-input" type="checkbox" id="check-3" value="option1"><label class="form-check-label" for="inlineCheckbox1">Подготовка официального Технического отчета с планом участка</label></div>';
+    $output .= '<a href="#" id="calc">Очистить расчет</a></div></div></div>';
+    $output .= '</div>';
+    $output .= '<div class="calc-total"><h4>СМЕТА ВЫНОС ГРАНИЦ В НАТУРУ</h4>';
+    $output .= '<p class="count">Количество точек <span class="count-value">12 шт.</span></p><p class="count-price">Цена <span class="count-price-value bold">7000 руб.</span></p>';
+    $output .= '<a href="#" id="calc-request">Заказать</a>';
+    $output .= '</div>';
+
+    return $output;
+}
+add_shortcode('calculation', 'calculation_price');
