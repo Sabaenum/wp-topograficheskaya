@@ -15,6 +15,9 @@ body {
     font-family: ﻿Gotham Pro;
 
 }
+a:hover{
+    text-decoration: none!important;
+}
 
 #other_page_2 ul {
     background-color: #e3eded;
@@ -2586,12 +2589,12 @@ span#close-modal {
     padding-top: 60px;
     margin: 0;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 #mej_page_4 h2, #our-ingen h2 {
     color: #ffffff;
 }
-
 #reliably .fw-team-text, #favorably .fw-team-text {
     color: #555555;
     font-family: "Gotham Pro";
@@ -4328,7 +4331,7 @@ a.post-bye {
 .works li a {
     color: #ffffff;
     font-family: "Gotham Pro";
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 16px;
     padding-right: 5px;
@@ -4391,8 +4394,23 @@ a.post-bye {
 
 #mej_page .fw-col-xs-12 {
     padding: 0;
+    display: flex;
 }
-
+#mej_page .fw-col-xs-12 p{
+    width: 50%;
+}
+#mej_page .video-wrapper.shortcode-container{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#mej_page .fw-container{
+    max-width: 1170px;
+    display: flex;
+}
+#mej_page .fw-row{
+    margin: 0 15px 0 0!important;
+}
 .tab-content > .tab-pane {
     display: block !important;
     visibility: hidden;
@@ -4453,7 +4471,6 @@ a.post-more:hover {
 a.post-bye:hover {
     text-decoration: none;
 }
-
 #parking_form {
     display: flex;
     flex-direction: row;
@@ -4467,7 +4484,24 @@ a.post-bye:hover {
 #parking_form img {
     margin-right: 30px;
 }
-
+.fw-container {
+width: 100%!important;
+}
+@media screen and (max-width: 1115px) {
+    .works{
+        flex-wrap: wrap!important;
+        flex-direction: row;
+        height: auto;
+        justify-content: space-around;
+    }
+    #how-request .fw-row{
+        flex-direction: column;
+    }
+    .works li{
+        height: 60px;
+        border-radius:5px;
+    }
+}
 @media screen and (max-width: 1120px) {
     .header-contacts .contacts {
         max-width: 30% !important;
@@ -4513,6 +4547,10 @@ a.post-bye:hover {
         padding-left: 0px;
         padding-right: 0px;
     }
+    section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 @media screen and (max-width: 1040px) {
@@ -4542,7 +4580,25 @@ a.post-bye:hover {
 }
 
 @media screen and (max-width: 991px) {
-
+    #mej_page .fw-container{
+        display: flex;
+    }
+    #mej_page .fw-row{
+        margin: 0!important;
+    }
+    #mej_page .fw-col-xs-12 p{
+        width: 100%;
+    }
+    #mej_page .video-wrapper.shortcode-container{
+        width: 100%;
+    }
+    #mej_page .video-wrapper.shortcode-container{
+        padding: 0;
+    }
+    #mej_page .fw-col-xs-12{
+        flex-direction: column;
+        margin-left: 10px;
+    }
     .main-sale::before {
         height: 323px;
     }
@@ -4556,7 +4612,26 @@ a.post-bye:hover {
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
+    .page-search input{
+        width: 100%;
+    }
+    #search-location .fw-col-xs-12{
+        justify-content: center;
+    }
+    #search-location .fw-team{
+        width: 120px;
+    }
+    #searchform-page::after{
+        top: 29px;
+    }
+    #how-request .fw-col-xs-12{
+        flex-direction: column;
+        width: 100%;
+    }
+    #form_letter{
+        margin: auto;
+    }
     #home_icon {
         display: none !important;
     }

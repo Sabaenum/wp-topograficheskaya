@@ -442,7 +442,16 @@ function post_block( $atts )
     $categories = get_categories(array('hide_empty' => false, 'exclude' => 1));
     $output = '<div class="container"><ul class="nav nav-tabs works"><li><a data-toggle="tab" class="active show" href="#alls">Все</a></li>';
     foreach ($categories as $category) {
-        $output .= '<li><a data-toggle="tab" onclick="loadSlide('.$category->term_id.')" href="#category' . $category->term_id . '">' . $category->cat_name . '</a></li>';
+        $categoryTitle = '';
+        $tempTitle = explode(' ',$category->cat_name);
+        foreach ($tempTitle as $key => $title){
+            if(strlen($title)>3) {
+                $categoryTitle .= $title.'<br>';
+                }else{
+                $categoryTitle .= $title.' ';
+            }
+        }
+        $output .= '<li><a data-toggle="tab" onclick="loadSlide('.$category->term_id.')" href="#category' . $category->term_id . '">' . $categoryTitle . '</a></li>';
     }
     $output .= '</ul><div class="tab-content">';
     $myposts = get_posts();
