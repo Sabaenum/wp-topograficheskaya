@@ -288,7 +288,7 @@ function loadSlide (id) {
                     settings: {
                         arrows: true,
                         centerPadding: '40px',
-                        slidesToShow: 5,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                     }
                 },
@@ -315,11 +315,11 @@ jQuery(document).ready(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 992,
                 settings: {
                     arrows: true,
                     centerPadding: '40px',
-                    slidesToShow: 5,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
