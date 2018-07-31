@@ -11,9 +11,10 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: true,
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots: true
                 }
             },
             {
@@ -28,6 +29,8 @@ jQuery(document).ready(function () {
         ]
 
     });
+
+
     jQuery('.works-slide').slick({
         nextArrow: '<i class="fa fa-arrow-right"></i>',
         prevArrow: '<i class="fa fa-arrow-left"></i>',
@@ -96,9 +99,10 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: true,
-                    slidesToShow: 1,
+                    arrows: false,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
+                    dots: true
                 }
             },
             {
@@ -128,6 +132,61 @@ jQuery(document).ready(function () {
         arrows:true
     });
 });
+
+///////////////////////////////////////////
+jQuery('.gallery-slider').slick({
+    nextArrow: '<i class="fa fa-arrow-right"></i>',
+    prevArrow: '<i class="fa fa-arrow-left"></i>',
+    arrows: true,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true
+            }
+        }
+    ]
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

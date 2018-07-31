@@ -52,6 +52,28 @@ function kama_breadcrumbs( $sep = ' » ', $l10n = array(), $args = array() ){
 
 
 
+////////////////////////////////////////////////*
+ function gallery_slider( $atts ){
+    $pathArray = scandir(__dir__.'/img/gallery');
+    $outPut = '<div class="gallery-slider">';
+   foreach ($pathArray as $path){
+       if(strlen($path) > 2) {
+            $outPut .= '<div><img src="'.get_template_directory_uri() . '/img/gallery/' . $path.'"></div>';
+       }
+    }
+    $outPut .= '</div>';
+    return $outPut;
+}
+add_shortcode('offices_gallery', 'gallery_slider');
+
+
+
+
+
+
+
+
+
 class Kama_Breadcrumbs {
 
     public $arg;

@@ -229,7 +229,8 @@ body {
     line-height: 24px;
     text-align: center;
 }
-#other_page_2_s7 h2{
+
+#other_page_2_s7 h2 {
     color: #00a0c6;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -240,24 +241,12 @@ body {
     padding-top: 40px;
     padding-bottom: 25px;
 }
-#other_page_2_s8{
-    padding-bottom: 60px;
- }
-#other_page_2_s8 h2{
-    color: #00a0c6;
-    font-family: "Gotham Pro";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 40px;
-    padding-bottom: 25px;
-}
-#other_page_2_s9{
+
+#other_page_2_s8 {
     padding-bottom: 60px;
 }
-#other_page_2_s9 h2{
+
+#other_page_2_s8 h2 {
     color: #00a0c6;
     font-family: "Gotham Pro";
     font-size: 24px;
@@ -268,6 +257,23 @@ body {
     padding-top: 40px;
     padding-bottom: 25px;
 }
+
+#other_page_2_s9 {
+    padding-bottom: 60px;
+}
+
+#other_page_2_s9 h2 {
+    color: #00a0c6;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
 .works-block {
     padding: 8px;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.29);
@@ -279,7 +285,8 @@ body {
     text-align: center;
     margin: auto auto 15px;
 }
-.works-block h4{
+
+.works-block h4 {
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 16px;
@@ -294,9 +301,11 @@ body {
     justify-content: center;
     padding: 15px;
 }
-.work-list{
+
+.work-list {
     padding: 0;
 }
+
 .sale-input input#contact-name-1 {
     box-shadow: 0px 3px 5px 0px rgba(134, 134, 134, 0.36);
     width: 251px;
@@ -308,7 +317,8 @@ body {
     float: left;
     justify-content: space-between;
 }
-.work-list li{
+
+.work-list li {
     text-align: left;
     list-style: none;
     position: relative;
@@ -320,13 +330,15 @@ body {
     line-height: 18px;
     padding-right: 6px;
 }
+
 .work-list li::before {
     content: "•";
     color: #79d2e8;
     position: absolute;
     left: 0;
 }
-.works-price{
+
+.works-price {
     border-top: 1px solid #019abe;
     margin: 0;
     padding-top: 20px;
@@ -338,6 +350,7 @@ body {
     line-height: 24px;
     padding-bottom: 15px;
 }
+
 .works-block a {
     background: #0079c1 linear-gradient(to top, #c9000b 0%, #ff3608 100%);
     width: 170px;
@@ -353,6 +366,7 @@ body {
     padding-top: 5px;
     margin: auto auto 25px;
 }
+
 .problems-danger {
     background: #00a0c6;
     padding: 15px;
@@ -388,7 +402,7 @@ p.problems-warning-1 {
     border-radius: 50%;
 }
 
-.menu-main-container{
+.menu-main-container {
     flex-basis: 904px;
 }
 
@@ -397,6 +411,7 @@ p.problems-warning-1 {
     font-size: 14pt;
     color: rgba(255, 255, 255, 255);
 }
+
 .block-calculation {
     display: flex;
     width: 70%;
@@ -407,7 +422,8 @@ p.problems-warning-1 {
     padding: 15px;
     border-radius: 5px;
 }
-.block-calculation h4{
+
+.block-calculation h4 {
     color: #2c2c2c;
     font-family: "Gotham Pro";
     font-size: 16px;
@@ -415,24 +431,29 @@ p.problems-warning-1 {
     line-height: 24px;
     text-align: center;
 }
-span.line-block{
+
+span.line-block {
     max-width: 400px;
     display: flex;
     width: 100%;
 }
+
 div#block-range {
     width: 100%;
 }
+
 .checkbox-block {
     display: flex;
     padding-top: 50px;
 }
+
 .calculation {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
 }
+
 .calc-total {
     display: flex;
     flex-wrap: wrap;
@@ -444,22 +465,26 @@ div#block-range {
     padding: 15px;
     border-radius: 5px;
 }
-.calc-total .count{
+
+.calc-total .count {
     justify-content: space-between;
     display: flex;
 }
-.calc-total .count-price{
+
+.calc-total .count-price {
     justify-content: space-between;
     display: flex;
 }
-.calc-total h4{
+
+.calc-total h4 {
     color: #2c2c2c;
     font-family: "Gotham Pro";
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
 }
-.calc-total a{
+
+.calc-total a {
     text-align: center;
     width: 170px;
     height: 35px;
@@ -474,30 +499,36 @@ div#block-range {
     border-radius: 5px;
     margin: auto auto 0px;
 }
+
 .checkbox-block-1 {
     display: flex;
     padding-top: 10px;
 }
+
 .form-check.form-check-inline {
     display: flex;
     align-items: center;
 }
-.checkbox-block input{
+
+.checkbox-block input {
     width: 20px;
     height: 20px;
 }
-.checkbox-block-1 input{
+
+.checkbox-block-1 input {
     width: 20px;
     height: 20px;
 }
-label{
+
+label {
     color: #555555;
     font-family: "Gotham Pro";
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
 }
-#calc{
+
+#calc {
     color: #ffffff;
     font-family: "Gotham Pro";
     font-size: 14px;
@@ -512,7 +543,8 @@ label{
     border-radius: 5px;
     margin-left: 20px;
 }
-.block-elements p{
+
+.block-elements p {
     margin: 0;
     padding-right: 20px;
     color: #555555;
@@ -521,13 +553,16 @@ label{
     font-weight: 400;
     line-height: 24px;
 }
-.slider-selection{
-    background: #79d2e8!important;
+
+.slider-selection {
+    background: #79d2e8 !important;
 }
-.slider-track-high{
-    background: #79d2e8!important;
+
+.slider-track-high {
+    background: #79d2e8 !important;
 }
-.block-number{
+
+.block-number {
     width: 100px;
     height: 40px;
     box-shadow: 0 3px 5px rgba(134, 134, 134, 0.36);
@@ -539,15 +574,18 @@ label{
     font-weight: 400;
     padding-left: 10px;
 }
-.slider .tooltip.top{
+
+.slider .tooltip.top {
     position: absolute;
     top: 60px;
 }
-.block-elements{
+
+.block-elements {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
+
 .desktop-menu {
     width: 100%;
 }
@@ -613,10 +651,12 @@ ul.sub-menu li a {
     width: 100%;
     justify-content: space-between;
 }
-body{
+
+body {
     padding: 0;
     margin: 0;
 }
+
 #header {
     width: 100%;
     background: #00a0c6;
@@ -786,12 +826,15 @@ p {
     text-decoration: none;
     border-radius: 5px;
 }
-table.table.table-striped{
+
+table.table.table-striped {
     width: 100%;
 }
-.container{
+
+.container {
     width: 100%;
 }
+
 .phone {
     font-size: 16px;
     font-family: "Gotham Pro";
@@ -1277,8 +1320,7 @@ input#contact-phone {
 .breadcrumbs {
     max-width: 1170px;
     margin: auto;
-    padding-bottom: 40px;
-
+    padding-bottom: 20px;
     padding-left: 15px;
 }
 
@@ -1306,6 +1348,7 @@ input#contact-phone {
     overflow: hidden;
     position: relative;
     padding: 0;
+    margin: auto;
 }
 
 p.inner-text-form {
@@ -1338,12 +1381,15 @@ p.inner-text-form {
     height: calc(100% - 50px);
     margin: 0;
 }
-.related-inner{
+
+.related-inner {
     position: relative;
 }
-.related-inner img{
+
+.related-inner img {
     margin: auto;
 }
+
 .related-inner .image-title {
     position: absolute;
     bottom: 40px;
@@ -1355,6 +1401,7 @@ p.inner-text-form {
     font-weight: 700;
     line-height: 18px;
 }
+
 #form_letter input, #form_letter textarea {
     border: 1px solid #d6d6d6;
     box-shadow: 0px 3px 5px 0px rgb(134, 134, 134);
@@ -1375,7 +1422,7 @@ p.inner-text-form {
 #form_letter textarea {
     width: 250px;
     height: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     resize: none;
 }
 
@@ -2085,7 +2132,9 @@ input#send_letter:after {
     background-size: cover;
     padding-bottom: 50px;
 }
-
+#statistics .fw-container .fw-row .fw-col-xs-12 img:nth-child(3){
+    display: none;
+}
 .b-top {
     font-size: 14px;
     font-family: "Gotham Pro";
@@ -2097,10 +2146,10 @@ input#send_letter:after {
 
 #testimonials {
     padding-bottom: 70px;
+    padding-top: 40px;
 }
 
 #testimonials h2 {
-    padding-top: 70px;
     font-size: 24px;
     font-family: "Gotham Pro";
     color: rgb(0, 160, 198);
@@ -2108,7 +2157,8 @@ input#send_letter:after {
     text-transform: uppercase;
     line-height: 1;
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
 }
 
 .slick-slide {
@@ -2178,10 +2228,12 @@ i.fa.fa-arrow-right.slick-arrow {
     background: transparent;
     right: 0;
 }
+
 .contacts_desktop {
     display: flex;
     flex-direction: column;
 }
+
 .testimonials .container {
     padding: 40px 0;
     position: relative;
@@ -3666,10 +3718,6 @@ span.grant-image img {
     padding: 8px;
 }
 
-#testimonial_page {
-
-}
-
 #contacts_page .page_name, #testimonial_page .page_name, #vacancy_page .page_name {
     display: block;
     float: left;
@@ -3703,7 +3751,7 @@ span.grant-image img {
     margin: 39px auto 41px;
 }
 
-#testimonial_page #hide {
+#testimonials h2 {
     display: none;
 }
 
@@ -3758,12 +3806,12 @@ span.grant-image img {
 /*   CONTACTS  PAGE  */
 
 #contacts_page p {
-    margin: 0;
+    margin: auto;
     display: block;
     width: 100%;
     font-size: 14px;
     color: rgba(0, 0, 0, 255);
-    text-align: left;
+
 }
 
 #contacts_page br {
@@ -3888,6 +3936,11 @@ span.grant-image img {
     width: 100%;
 }
 
+#testimonials .slick-initialized .slick-slide {
+    display: block;
+    padding: 20px;
+}
+
 #testimonials_page h2 {
     font-size: 30px;
     font-family: "Gotham Pro";
@@ -3906,7 +3959,7 @@ span.grant-image img {
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: left;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 #testimonials_page a {
@@ -3927,6 +3980,7 @@ section#vacancy_page {
 
 #vacancy_page a {
     font-weight: bold;
+    color: #00a0c6;
 }
 
 #vacancy_page .current_vacancies p, .update_vacancies p {
@@ -3988,7 +4042,7 @@ section#vacancy_page {
     margin-bottom: 35px;
 }
 
-#actions_page p br{
+#actions_page p br {
     display: none;
 
 }
@@ -4084,7 +4138,7 @@ footer .in-container .row {
 }
 
 .request-call span {
-    padding: 11px 27px 14px 26px;
+    padding: 11px auto;
 }
 
 .write-us {
@@ -4400,6 +4454,20 @@ a.post-bye:hover {
     text-decoration: none;
 }
 
+#parking_form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#parking_form p {
+    float: left;
+}
+
+#parking_form img {
+    margin-right: 30px;
+}
+
 @media screen and (max-width: 1120px) {
     .header-contacts .contacts {
         max-width: 30% !important;
@@ -4426,6 +4494,18 @@ a.post-bye:hover {
         display: block;
     }
 
+    #parking_form p:first-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #parking_form img {
+        margin: 0;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
 }
 
 @media screen and (max-width: 1170px) {
@@ -4436,10 +4516,11 @@ a.post-bye:hover {
 }
 
 @media screen and (max-width: 1040px) {
-    section{
-        padding-left:15px ;
+    section {
+        padding-left: 15px;
         padding-right: 15px;
     }
+
     .desktop-menu {
         display: none;
     }
@@ -4475,9 +4556,7 @@ a.post-bye:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
-
-
+@media screen and (max-width: 769px) {
     #home_icon {
         display: none !important;
     }
@@ -4555,10 +4634,10 @@ a.post-bye:hover {
     }
 
     #testimonial_page h1 {
-        font-size: 24pt;
+        font-size: 24px;
     }
 
-    #testimonials_page #hide {
+    #testimonials h2 {
         display: block;
     }
 
@@ -4573,6 +4652,25 @@ a.post-bye:hover {
 
     #contacts_page .print {
         display: none;
+    }
+
+    #contacts_page h1 {
+        color: #00a0c6;
+        font-family: "Gotham Pro";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin: 0;
+    }
+
+    #contacts_page .social_icons {
+        list-style: none;
+        display: flex;
+        margin: 50px 0;
+
     }
 
     #services .fw-col-xs-12.fw-col-sm-3 {
@@ -4642,7 +4740,7 @@ a.post-bye:hover {
     }
 
     #price .fw-col-xs-12:nth-child(odd), #price .fw-col-sm-4:nth-child(odd) {
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     #sale-contact h2 {
@@ -4843,6 +4941,8 @@ a.post-bye:hover {
         font-weight: 700;
         line-height: 24px;
         text-transform: uppercase;
+        padding-bottom: 30px;
+        margin-bottom: 0;
     }
 
     #testimonials_page p {
@@ -4852,12 +4952,11 @@ a.post-bye:hover {
         line-height: 18px;
     }
 
-
-    #actions_page{
+    #actions_page {
         padding: 0 20px;
     }
 
-    #actions_page h1{
+    #actions_page h1 {
         color: #00a0c6;
         font-family: "Gotham Pro";
         font-size: 24px;
@@ -4867,13 +4966,12 @@ a.post-bye:hover {
         margin-bottom: 20px;
     }
 
-
-    #actions_page .action_block{
+    #actions_page .action_block {
         margin-bottom: 30px;
         padding: 35px;
     }
 
-    #actions_page h2{
+    #actions_page h2 {
         color: #00a0c6;
         font-family: "Gotham Pro";
         font-size: 16px;
@@ -5027,6 +5125,13 @@ a.post-bye:hover {
 }
 
 @media screen and (max-width: 479px) {
+    #statistics .fw-container .fw-row .fw-col-xs-12 img:nth-child(2){
+        display: none;
+    }
+    #statistics .fw-container .fw-row .fw-col-xs-12 img:nth-child(3){
+        display: block;
+        margin: auto;
+    }
 
     #call-2 .main-sale::after {
         content: '';
@@ -5081,8 +5186,28 @@ a.post-bye:hover {
         display: block;
     }
 
-    footer {
+    .b-top {
+        color: #555555;
+        font-family: "Gotham Pro";
         font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    #clients p {
+        padding-bottom: 20px;
+        color: #555555;
+        font-family: "Gotham Pro";
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .request-call span {
+        white-space: nowrap;
+    }
+
+    footer {
+
         padding: 43px 0;
     }
 
@@ -5092,6 +5217,7 @@ a.post-bye:hover {
 
     footer p {
         text-align: center;
+        font-size: 12px;
     }
 
     .make-call, .request-call, .write-us {
@@ -5557,8 +5683,8 @@ a.post-bye:hover {
         font-size: 18px;
         font-weight: 700;
         text-transform: uppercase;
-        padding-bottom: 50px;
-        padding-top: 40px;
+        padding-bottom: 20px;
+
         margin-bottom: 0;
 
     }
@@ -5619,10 +5745,17 @@ a.post-bye:hover {
     }
 
     #testimonials_page h2 {
+        padding-bottom: 30px;
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
         text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    #testimonials .slick-initialized .slick-slide {
+        display: block;
+        padding: 0;
     }
 
     #testimonials_page p {
@@ -5636,30 +5769,57 @@ a.post-bye:hover {
         margin: auto auto 30px;
     }
 
+    #actions_page h1 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: uppercase;
+        padding: 0 0 30px;
+        margin-bottom: 0;
+    }
 
-#actions_page h1{
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 24px;
-    text-transform: uppercase;
-padding: 0 0 30px ;
-margin-bottom: 0;}
+    #actions_page h2 {
+        color: #00a0c6;
+        font-family: "Gotham Pro";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+        padding-bottom: 20px;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    #actions_page .action_block {
+        padding: 50px 20px;
+        margin-bottom: 20px;
+    }
+
+    #parking_form #form_letter {
+        width: 290px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+        position: relative;
+        padding: 0;
+        margin: auto;
+    }
+
+    #parking_form #form_letter button {
+        min-width: 135px !important;
+        margin: 0;
+        font-size: 13px !important;
+        padding: 0;
+
+    }
 
 
-#actions_page h2{
-    color: #00a0c6;
-    font-family: "Gotham Pro";
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 18px;
-    padding-bottom: 20px;
-    padding-top: 0;
-    margin-bottom: 0;
-}
+    #statistics img:nth-child(1){
+        display: block;
+    }
 
-#actions_page .action_block{
-    padding: 50px 20px;
-    margin-bottom: 20px;
-}
+    #statistics img:nth-child(2){
+        display: none;
+    }
 
 }
