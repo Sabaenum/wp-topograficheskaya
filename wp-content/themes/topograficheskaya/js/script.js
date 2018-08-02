@@ -9,7 +9,7 @@ jQuery(document).ready(function () {
         prevArrow: '<i class="fa fa-arrow-left"></i>',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
@@ -41,11 +41,12 @@ jQuery(document).ready(function () {
         centerPadding: '40px',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
-                    arrows: true,
-                    slidesToShow: 1,
+                    arrows: false,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
+                    dots:true
                 }
             },
             {
@@ -70,11 +71,12 @@ jQuery(document).ready(function () {
         centerPadding: '40px',
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
-                    arrows: true,
-                    slidesToShow: 1,
+                    arrows: false,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
+                    dots:true
                 }
             },
             {
@@ -97,7 +99,7 @@ jQuery(document).ready(function () {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 769,
                 settings: {
                     arrows: false,
                     slidesToShow: 2,
@@ -129,24 +131,44 @@ jQuery(document).ready(function () {
         slidesToShow: 6,
         asNavFor: '.slide-portfolio',
         focusOnSelect: true,
-        arrows:true
+        arrows:true,
+        responsive: [
+            {
+                breakpoint: 769,
+                settings: {
+                    arrows: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: true
+                }
+            }
+        ]
     });
 });
 
 ///////////////////////////////////////////
-jQuery('.gallery-slider').slick({
+jQuery('.gallery ').slick({
     nextArrow: '<i class="fa fa-arrow-right"></i>',
     prevArrow: '<i class="fa fa-arrow-left"></i>',
-    arrows: true,
     slidesToShow: 4,
     slidesToScroll: 1,
+    infinite: false,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 769,
             settings: {
-                arrows: true,
+                arrows: false,
                 slidesToShow: 2,
                 slidesToScroll: 2,
+                dots:true
             }
         },
         {
@@ -385,10 +407,10 @@ jQuery(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: true,
-                    centerPadding: '40px',
+                    arrows: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
+                    dots:true
                 }
             }
         ]

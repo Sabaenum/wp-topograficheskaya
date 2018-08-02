@@ -16,7 +16,6 @@
 <div class="main-header col-sm-12 col-lg-12 ">
     <a id="home-icon" href="/"><img src="<?php echo get_stylesheet_directory_uri().'/img/home.png'; ?>" /></a>
         <div class="desktop-menu"> <?php wp_nav_menu(); ?></div>
-
     <div class="mobile-menu">
         <a href="#" class="show-menu"><img src="<?php echo get_stylesheet_directory_uri().'/img/menu.png'; ?>"></a>
     </div>

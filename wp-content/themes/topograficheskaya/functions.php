@@ -554,6 +554,8 @@ function calculation_price( $atts ){
     $output .= '<p class="count">Количество точек <span class="count-value">12 шт.</span></p><p class="count-price">Цена <span class="count-price-value bold">7000 руб.</span></p>';
     $output .= '<a href="#" id="calc-request">Заказать</a>';
     $output .= '</div>';
+    $output .= '<div class="calc-text"> <p>* Скидка предоставляется физическим лицам при заказе выноса границ участка заблаговременно и назначении исполнителем выезда на объект в течении 1-15 дней после получения заявки</p><p>** Калькулятор и расчет сметы не является публичной офертой. Для окончательного расчета, а также получения информации о текущих скидках и акциях звоните по телефону</p><p class="phone-text">+7 (495) 926-26-18</p></div>';
+
 
     return $output;
 }

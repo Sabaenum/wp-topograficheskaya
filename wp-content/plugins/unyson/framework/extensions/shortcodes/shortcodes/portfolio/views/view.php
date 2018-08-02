@@ -20,9 +20,10 @@ foreach ( fw_akg( 'testimonials', $atts, array() ) as $testimonial ): ?>
     array_push($nav,$author_avatar);
     ?>
     <div class="row">
-        <div class="col-12 col-sm-8 col-lg-8">
+        <div class="col-12 col-sm-8 col-lg-8 mob-style">
             <h4><?php echo esc_attr($testimonial['author_name']); ?></h4>
             <p class="text-blue"><?php echo esc_attr($testimonial['author_job']); ?></p>
+            <img class="screen for-modile" src="<?php echo esc_attr($author_avatar); ?>"/>
             <div class="portfolio-license">
     <?php foreach ($tempArray as $temp) { ?>
     <img src="<?php echo $temp; ?>">
