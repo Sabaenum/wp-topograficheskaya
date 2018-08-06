@@ -1328,9 +1328,14 @@ input#contact-phone {
     max-width: 370px;
     width: 80%;
     display: flex;
-
     border-width: 0px;
+    white-space: normal;
 }
+
+#about-us h2 {
+
+}
+
 
 .breadcrumbs {
     max-width: 1170px;
@@ -4598,6 +4603,146 @@ width: 100%!important;
     line-height: 30px;
 }
 
+#questions {
+    background: #f1f7f7;
+    padding: 45px 10px;
+}
+#questions h2{
+    color: #00a0c6;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+#question_block {
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.29);
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+ #questions #question_block  div.question_row  {
+    color: red;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    display: flex;
+     flex-direction: row;
+     justify-content: start;
+     width: 100%;
+}
+
+
+
+#questions div.question_row a.plus_minus, #questions div.question_row a.question_mark  {
+    min-width: 42px;
+    border: 2px solid rgb(1, 154, 190);
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    height: 42px;
+    justify-content: center;
+    color: rgb(1, 154, 190) !important;
+    font-weight: bold;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#questions div.question_row a.question_mark{
+    border: 2px solid #d7e1e4;
+    color: #d7e1e4 !important;
+    float:right;
+    margin-right: 0;
+
+}
+
+#questions div.question_row a span.plus, #questions div.question_row a.question_mark span, #questions div.question_row a span.minus {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    font-weight: normal;
+}
+
+#questions div.question_row p{
+    line-height: 3;
+}
+
+
+#questions .answer {
+    color: #555555;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+}
+
+#questions div.answer ul{
+   padding: 0;
+    list-style: none;
+    color: #555555;
+    font-family: "Gotham Pro";
+    font-size: 14px;
+    font-style: italic;
+
+
+}
+
+#questions div.answer li {
+    padding-left: 20px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    position: relative;
+
+}
+
+#questions div.answer li::before {
+    content: "\2022";
+    position: absolute;
+    color: rgb(0, 160, 198);
+    font-size: 18px;
+    left: 0px;
+    top: 0px;
+}
+
+#questions a.fw-btn-1 {
+    display: block;
+    max-width: 200px;
+    height: 35px;
+    background-color: #0079c1;
+    background-image: linear-gradient(to top, #c9000b 0%, #ff3608 100%);
+    margin: auto;
+
+}
+
+#questions a.fw-btn-1 span {
+color: #ffffff;
+font-family: "Gotham Pro";
+font-size: 14px;
+font-weight: 400;
+line-height: 1;}
+
+#files h2 {
+    color: #00a0c6;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+
+
 @media screen and (max-width: 1115px) {
     .works{
         flex-wrap: wrap!important;
@@ -5671,6 +5816,17 @@ width: 100%!important;
 
 @media screen and (max-width: 479px) {
 
+    #questions div.question_row a.question_mark{
+        display: none;
+    }
+    #questions div.question_row p {
+        line-height: 18px;
+    }
+
+    #questions #question_block {
+        padding: 25px 5px 20px 10px;
+    }
+
     #zakon .fw-row{
         display: flex;
         flex-direction: column;
@@ -5862,7 +6018,11 @@ width: 100%!important;
         height: 330px;
     }
 
-    #call-2 .main-sale::before {
+    #call-2 .h2-block {
+        display: inline-block;
+    }
+
+    #call-2 .h2-block::before {
         content: '';
         border-left: 2px solid #79d2e8;
         width: 2px;

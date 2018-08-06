@@ -185,8 +185,12 @@ jQuery('.gallery ').slick({
 
 
 
+$("a.plus_minus").click(function () {
 
+    $(this).find("span.plus").toggleClass("hide");
+    $(this).find("span.minus").toggleClass("hide");
 
+});
 
 
 
@@ -420,3 +424,6 @@ jQuery('a.show-menu').on('click', function (event) {
     event.preventDefault();
     jQuery( ".mobile-menu-content" ).toggleClass( "show" )
 });
+
+
+
